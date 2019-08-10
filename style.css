@@ -34,6 +34,10 @@ a {
 #about{
     background-color:#e0ebe8;
     min-height: 750px;
+    background-image: url(img/CatOnPiano.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
 
 }
 
@@ -44,7 +48,7 @@ a {
     line-height: 1.4em;
     position: absolute;
     top: 70px;
-    left:40%;
+    left:42%;
 }
 
 #about h4 {
@@ -54,6 +58,60 @@ a {
     line-height: 1.4em;
     position: absolute;
     top: 280px;
-    left:35%;
+    left:37%;
 }
 
+.myself {
+    float: left;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+#projects {
+    min-height: 550px;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#projects h2 {
+  color: #008080;
+  font-size: 30px;
+}
+
+.projectImg {
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+#links {
+    background-color:#e0ebe8;
+    min-height: 400px;
+}
+
+#links h1 {
+    color: #000080;
+    font-size: 30px;
+    position:relative; 
+    top:100px;
+    margin: 50px;
+}
+
+#links ul {
+    padding: 10px;
+    list-style: none;
+}
+
+.contactLink:hover {
+    color: aqua;
+}
+
+#links li {
+    font-size: 30px;
+    position:relative; 
+    top:100px;
+    right:5px;
+    margin: 50px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
