@@ -42,7 +42,7 @@ a {
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
-
+    
 }
 
 #about h1 {
@@ -77,6 +77,11 @@ a {
     padding-right: 10%;
     padding-left: 10%;
 }
+
+#projects .project-content {
+    min-height: 300px;
+}
+
 #projects h2 {
   color: #008080;
   font-size: 30px;
@@ -106,6 +111,16 @@ a {
     font-size: 25px;
     line-height: 1.4em;
     color: white;
+}
+
+#Experience-and-skill h2 {
+    color: #008080;
+    font-size: 30px;
+}
+
+#Experience-and-skill p {
+    font-size: 20px;
+    line-height: 1.4em;
 }
 
 #links {
